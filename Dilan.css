@@ -1,0 +1,123 @@
+h1{
+    color: rgb(37, 36, 35);
+    text-align: center;
+    font-family: fantasy;
+}
+
+h2{
+    color: rgb(41, 190, 182);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: right;
+}
+
+img{
+ width: 20%;
+}
+
+nav{display: inherit;
+    color:rgb(255, 0, 0);
+}
+
+body{
+    background-image: url("img/1687610054155.jpg");
+    background-position: center;
+}
+
+/* #ttt{width: auto;
+} */
+
+#yy{
+    width: 100%;
+margin-top: 0cap;
+text-align: right;
+color: red;
+}
+
+#hh{ text-align: right;}
+
+
+#ttt{
+    text-align: right;
+
+}
+
+img{
+    width: 25%;
+    border-radius: 20%;
+    background-position: center;
+}
+
+@media (max-width: 480px) {
+    .name {
+        font-size:24px ;
+}
+
+nav li {
+    padding: 6px 8px ;
+    font-size: 12px;
+}
+
+#ttt:img {
+    width:200px ;
+    height:200px ;
+    margin-left:0 ;
+    margin-bottom:12px ;
+}
+   }
+
+   #ttt:hover{
+   -webkit-animation-name : myAnimation;
+   -webkit-animation-duration: 2s;
+   -webkit-animation-delay : 0.5s;
+   -webkit-animation-fill-mode : frowards;
+   -webkit-animation-timing-function: ease-in-out;
+  }
+
+  @keyframes myAnimation {
+    from {
+        opacity:0.5 ;
+        transform: scale(0);
+    }
+     to {
+        opacity:1 ;
+        transform: scale(1);
+     }
+    }
+
+    #hh:hover{
+        -webkit-animation-name : myAnimation;
+        -webkit-animation-duration: 2s;
+        -webkit-animation-delay : 0.5s;
+        -webkit-animation-fill-mode : frowards;
+        -webkit-animation-timing-function: ease-in-out;
+       }
+     
+       @keyframes myAnimation {
+         from {
+             opacity:0.5 ;
+             transform: scale(0);
+         }
+          to {
+             opacity:1 ;
+             transform: scale(1);
+          }
+         }
+
+         #yy:hover{
+            -webkit-animation-name : myAnimation;
+            -webkit-animation-duration: 2s;
+            -webkit-animation-delay : 0.5s;
+            -webkit-animation-fill-mode : frowards;
+            -webkit-animation-timing-function: ease-in-out;
+           }
+         
+           @keyframes myAnimation {
+             from {
+                 opacity:0.5 ;
+                 transform: scale(0);
+             }
+              to {
+                 opacity:1 ;
+                 transform: scale(1);
+              }
+             }
